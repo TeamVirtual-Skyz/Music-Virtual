@@ -45,7 +45,7 @@ async def start_(client: Client, message: Message):
                         "📚 ɪɴʟɪɴᴇ 📚", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "👻 ᴄʜᴀɴɴᴇʟ 👻", url=f"https://github.com/AnonymousR1025/FallenMusic"
+                        "👻 ᴄʜᴀɴɴᴇʟ 👻", url=f"https://t.me/PrivateChattingan"
                     )]
             ]
        ),
