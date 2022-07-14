@@ -22,25 +22,25 @@ async def start_(client: Client, message: Message):
 ┣★ʙᴏᴛ ᴍᴜꜱɪᴄ ᴠɪʀᴛᴜᴀʟ 🇮🇩
 ┣★ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴘᴜᴛʀᴀ 🇮🇩
 ╔════════════════════╗
-│[🧸 ᴏᴡɴᴇʀ 🧸](t.me/{me})│
+│[🧸 ᴏᴡɴᴇʀ 🧸](t.me/{me})│发 ᴘᴜᴛʀᴀ• 🇮🇩
 ╚════════════════════╝
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url=f"https://t.me/{bu}?startgroup=true"
+                        "⚜️ᴛᴀᴍʙᴀʜᴋᴀɴ ʙᴏᴛ ᴋᴇᴅᴀʟᴀᴍ ɢʀᴜᴘ⚜️", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
-                    InlineKeyboardButton(
-                        "🧸 ᴏᴡɴᴇʀ 🧸", url=f"https://t.me/FvckMiaw"
+                   
+                      
                     ),
                     InlineKeyboardButton(
                         "🇮🇩 sᴜᴘᴘᴏʀᴛ 🇮🇩", url=f"https://t.me/Grup_Cari_Teman_Virtual"
                     )
                 ],[
-                    InlineKeyboardButton(
-                        "📚 ɪɴʟɪɴᴇ 📚", switch_inline_query_current_chat=""
+                   
+                    
                     ),
                     InlineKeyboardButton(
                         "👻 ᴄʜᴀɴɴᴇʟ 👻", url=f"https://t.me/PrivateChattingan"
