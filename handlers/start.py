@@ -32,16 +32,10 @@ async def start_(client: Client, message: Message):
                         "⚜️ᴛᴀᴍʙᴀʜᴋᴀɴ ʙᴏᴛ ᴋᴇᴅᴀʟᴀᴍ ɢʀᴜᴘ⚜️", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
-                   
-                      
-                    ),
                     InlineKeyboardButton(
                         "🇮🇩 sᴜᴘᴘᴏʀᴛ 🇮🇩", url=f"https://t.me/Grup_Cari_Teman_Virtual"
                     )
                 ],[
-                   
-                    
-                    ),
                     InlineKeyboardButton(
                         "👻 ᴄʜᴀɴɴᴇʟ 👻", url=f"https://t.me/PrivateChattingan"
                     )]
