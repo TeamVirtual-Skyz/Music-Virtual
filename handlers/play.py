@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    fallen = await message.reply("» ᴘʀᴏᴄᴇssɪɴɢ​... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ʙᴀʙʏ🔎")
+    fallen = await message.reply("» ​ᴍᴇᴍᴘʀᴏꜱᴇꜱ..ꜱᴇᴅᴀɴɢ ᴍᴇɴᴄᴀʀɪ🔎")
 
     chumtiya = message.from_user.mention
 
@@ -77,24 +77,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await fallen.edit(
-                        "<b>» ꜰɪʀsᴛʟʏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ʙᴀʙʏ</b>")
+                        "<b>» ᴊᴀᴅɪᴋᴀɴ ᴀᴅᴍɪɴ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "» ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ʙᴀʙʏ, ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ sᴏɴɢs​.")
+                        message.chat.id, "» ᴀssɪsᴛᴀɴᴛ ʙᴇʜᴀꜱɪʟ ʙᴇʀɢᴀʙᴜɴɢ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ, ᴀɴᴅᴀ ᴅᴀᴘᴀᴛ ᴍᴇᴍᴜᴛᴀʀ ʟᴀɢᴜ​.")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await fallen.edit(
-                        f"<b>» ᴀssɪsᴛᴀɴᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙᴀʙʏ, sᴇɴᴅ /join ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴏʀᴅᴇʀ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ᴊ​ᴏɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.")
+                        f"<b>» ᴀssɪsᴛᴀɴᴛ ᴛɪᴅᴀᴋ ᴀᴅᴀ ᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ, ᴋᴇᴛɪᴋ /join ᴜɴᴛᴜᴋ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴀꜱꜱɪꜱᴛᴀɴᴛ ᴋᴇᴅᴀʟᴀᴍ ᴏʙʀᴏʟᴀɴ.")
     try:
         await USER.get_chat(chid)
     except:
         await fallen.edit(
-            f"<i>» ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ʙᴀʙʏ.</i>")
+            f"<i>» ᴀssɪsᴛᴀɴᴛ ᴛᴇʀʙᴀɴɴᴇᴅ ᴅᴀʀɪ ᴏʙʀᴏʟᴀɴ.</i>")
         return
     
     audio = (
@@ -107,7 +107,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"» ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇʟᴇʙɪʜɪ ᴅᴜʀᴀꜱɪ ᴍᴇɴɪᴛ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ {DURATION_LIMIT}"
             )
 
         file_name = get_file_name(audio)
@@ -148,14 +148,14 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await fallen.edit(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"» ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇʟᴇʙɪʜɪ ᴅᴜʀᴀꜱɪ ᴍᴇɴɪᴛ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ {DURATION_LIMIT} "
             )
             return
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
             return await fallen.edit(
-                "» ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ sᴇᴀʀᴄʜ ʙᴀʙʏ🤦🏻‍♂️"
+                "» ᴋᴇᴛɪᴋᴀɴ ᴍᴜꜱɪᴄ ʏᴀɴɢ ᴀᴅᴀ ᴍɪɴᴛᴀ🤦🏻‍♂️"
             )
         await fallen.edit("🔎")
         query = message.text.split(None, 1)[1]
@@ -182,14 +182,14 @@ async def play(_, message: Message):
 
         except Exception as e:
             await fallen.edit(
-                "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ"
+                "» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ"
             )
             print(str(e))
             return
 
         if (dur / 60) > DURATION_LIMIT:
             await fallen.edit(
-                f"» sᴏʀʀʏ ʙᴀʙʏ, ᴛʀᴀᴄᴋ ʟᴏɴɢᴇʀ ᴛʜᴀɴ  {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ"
+                f"» ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇʟᴇʙɪʜɪ ᴅᴜʀᴀꜱɪ ʏᴀɴɢ ᴅɪᴍɪɴᴛᴀ {DURATION_LIMIT}"
             )
             return
         file_path = await converter.convert(youtube.download(url))
@@ -200,11 +200,11 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-            text=f"**» ᴛʀᴀᴄᴋ ǫᴜᴇᴜᴇᴅ ᴀᴛ {position} ʙᴀʙʏ**\n📌 **ᴛɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n🕕** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n💕** ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​ : **{chumtiya}",
+            text=f"**» ᴀɴᴛʀɪᴀɴ ᴍᴜꜱɪᴋ ᴋᴇ {position} **\n🧸 **ᴛɪᴛʟᴇ​ :**[{title[:65]}]({url})\n\n⏳** ᴅᴜʀᴀᴛɪᴏɴ :** `{duration}` **ᴍɪɴᴜᴛᴇs**\n👻** ᴘᴇʀᴍɪɴᴛᴀᴀɴ : **{chumtiya}",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("🧸sᴜᴩᴩᴏʀᴛ🧸", url=f"https://t.me/Grup_Cari_Teman_Virtual"),
                     InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
                 ],
             ]
@@ -223,11 +223,11 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**ㅤㅤㅤ» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {chumtiya}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
+            text=f"**ㅤㅤㅤ» ꜱᴇᴅᴀɴɢ ᴅɪᴍᴀɪɴᴋᴀɴ «**\n🧸 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n⏳ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n👻 **ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {chumtiya}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• sᴜᴩᴩᴏʀᴛ •", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("🧸sᴜᴩᴩᴏʀᴛ🧸", url=f"https://t.me/{SUPPORT_GROUP}"),
                     InlineKeyboardButton("» ᴄʟᴏsᴇ «", callback_data="close_play")
                 ],
             ]
