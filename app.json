@@ -1,9 +1,9 @@
 {
-  "name": "ғᴀʟʟᴇɴ ᴍᴜsɪᴄ",
-  "logo": "https://telegra.ph/file/89cbc8b8760b6abff430f.jpg",
+  "name": "🧸ᴍᴜꜱɪᴄ ᴠɪʀᴛᴜᴀʟ🧸",
+  "logo": "https://telegra.ph/file/9157ea4b798efb4fd0203.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/AnonymousR1025/FallenMusic",
+  "repository": "https://github.com/TeamVirtual-Skyz/Music-Virtual",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
